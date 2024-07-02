@@ -1,0 +1,110 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.background-container{
+
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./netflix\ background\ imAGE.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+
+}
+.margins{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70%;
+  margin-top: 200px;
+  
+  
+}
+.intro-text{
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(red,green, blue, alpha);
+  
+  font-weight: 820;
+}
+.h2{
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.logo{
+  
+  margin-right: auto;
+  color: rgb(250, 9, 9);
+  font-size: 40px;
+  font-weight: 300px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head-buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.button-eng {
+  background: transparent;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.button-signin {
+  background-color: red;
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.names-container{
+  width: fit-content;
+}
+
+.input{
+  background: transparent;
+  width: 200px;
+  height: 50px;
+  border:rosybrown;
+  border-radius: 10px;
+  border-width: thin;
+  color: antiquewhite;
+  font-size: medium;
+  
+
+}
+
+.getStartbtn{
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 5px;
+}
